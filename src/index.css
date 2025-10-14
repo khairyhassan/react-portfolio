@@ -67,12 +67,21 @@ img{
   width: 100%;
   object-fit: cover;
 }
+.top-section h5{
+  text-align: center;
+  color: var(--color-light);
+}
+.top-section h2{
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--color-primary);
+}
 /* responsive displays */
 
 /* media queries tablet */
 @media(max-width:1024px){
   .container{
-    width: 85%;
+    width: 90%;
   }
   section{
     padding-top: 6rem;
@@ -82,9 +91,12 @@ img{
 /* media queries mobile */
 @media(max-width:600px){
   .container{
-    width: 90%;
+    width:90%;
   }
   section{
   padding-top: 5rem;
+}
+.top-section h2{
+  margin-bottom: 2rem;
 }
 }

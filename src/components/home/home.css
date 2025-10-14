@@ -2,6 +2,8 @@
   height: 100%;
   padding-top: 50px;
   overflow: hidden;
+  
+  
 }
 .home-container{
   text-align: center;
@@ -28,7 +30,7 @@
 }
 .scroll-down{
   position: absolute;
-  right: 25px;
+  right: -30px;
   bottom: 70px;
   transform: rotate(90deg);
   font-weight: 300;
