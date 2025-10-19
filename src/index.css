@@ -15,6 +15,9 @@
   --color-light:rgba(255,255,255,0.6);
   --transition: all 0.4s ease;;
 }
+html{
+  scroll-behavior: smooth;
+}
 body{
   font-family: "Poppins", sans-serif;
   background: var(--color-bg);
@@ -22,8 +25,12 @@ body{
   line-height: 1.7;
   background-image: url(assets/bg-texture.png);
 }
+::-webkit-scrollbar{
+  display: none;
+}
 .container{
   margin: 0;
+
 }
 h1,h2,h3,h4,h5,h6{
   font-weight: 500;
@@ -32,7 +39,7 @@ h1{
   font-size: 2.5rem;
 }
 section{
-  padding-top: 8rem;
+  padding-top: 5rem;
 }
 .text-light{
   color: var(--color-light);
@@ -43,6 +50,9 @@ a{
 }
 a:hover{
   color: var(--color-white);
+  box-shadow: 0 0 10px var(--color-primary),
+              0 0 10px var(--color-primary),
+              0 0 10px var(--color-primary)
 }
 .btn{
   width: max-content;
@@ -81,7 +91,7 @@ img{
 /* media queries tablet */
 @media(max-width:1024px){
   .container{
-    width: 90%;
+    width: 95%;
   }
   section{
     padding-top: 6rem;
@@ -91,7 +101,7 @@ img{
 /* media queries mobile */
 @media(max-width:600px){
   .container{
-    width:90%;
+    width: 95%;
   }
   section{
   padding-top: 5rem;

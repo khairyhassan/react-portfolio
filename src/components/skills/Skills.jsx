@@ -61,7 +61,7 @@ const skillsData = [
 ]
 function Skills() {
   return (
-    <section className='skills'>
+    <section className='skills' id='skills'>
       <div className="top-section">
         <h5>What Skills I Have</h5>
         <h2>My Experience</h2>

@@ -2,7 +2,8 @@ import React from 'react';
 import './home.css';
 import me from '../../assets/me.png';
 import CV from '../../assets/cv.pdf';
-import HomeSocials from './HomeSocials'
+import HomeSocials from './HomeSocials';
+
 
 
 
