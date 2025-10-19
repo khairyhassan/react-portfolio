@@ -4,6 +4,8 @@ import img1 from  '../../assets/platter restaurant.png'
 import img2 from  '../../assets/Responsive Coffee Website.png'
 import img3 from  '../../assets/weather app.png'
 import img4 from  '../../assets/Khairy Hassan Portofolio.png'
+import img5 from  '../../assets/khairy-react-portfolio.jpg'
+import img6 from  '../../assets/react-weather-programme-.jpg'
 
 
 const projectsData = [
@@ -34,7 +36,21 @@ const projectsData = [
     title: ' Khairy Hassan Portfolio',
     github: 'https://github.com/khairyhassan/portofolio.git',
     netlify:'https://khairyhassan.netlify.app/',
-  }
+  },
+  {
+    id: 5,
+    image:img5,
+    title: 'Khairy react Portfolio',
+    github: 'https://github.com/khairyhassan/react-portfolio.git',
+    netlify:'https://khairy-react-portfolio.netlify.app/',
+  },
+  {
+    id: 6,
+    image:img6,
+    title: ' react weather app',
+    github: 'https://github.com/khairyhassan/React-weather-app.git',
+    netlify:'https://react-weather-programme.netlify.app/',
+  },
 ]
 function Projects() {
   return (

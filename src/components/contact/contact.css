@@ -53,6 +53,8 @@
   resize: none;
   color: var(--color-white);
 }
+
+
 .contact-container form button{
   font-size: 18px;
   padding: 14px 30px;
